@@ -1,0 +1,111 @@
+.Home{
+    text-align: right; 
+    color: white; 
+    width: 200;
+}
+
+h2{
+    text-align: center; 
+    color: #071952;
+}
+
+p{
+    text-align: center; 
+    color: #EBF4F6;
+}
+
+.header {
+    display: flex;
+    align-items: center; /* Align items vertically */
+    justify-content: center; /* Adjust as needed */
+}
+
+.header img {
+    max-width: 200%; /* Adjust size as needed */
+   
+}
+
+
+
+*{
+    background-color: #088395; 
+    padding-left: 10%; 
+    padding-right: 10%;
+   
+   
+}
+h1{
+    color: #071952; 
+    text-align: center;
+}
+
+ul{
+    color: #EBF4F6; 
+    font-style: italic;
+}
+
+nav {
+    display: flex; /* Aligns menu items in a row */
+    justify-content: center; /* Centers the items */
+    gap: 20px; /* Adds space between menu items */
+    background-color: grey; /* Ensures background covers full width */
+    padding: 10px; /* Adds padding for better spacing */
+}
+
+nav a {
+    color: #EBF4F6;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid white;
+    padding: 10px 15px; /* Adds padding inside each button */
+    background-color: grey;
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+nav a:hover {
+    background-color: white;
+    color: grey;
+}
+
+
+html{
+  
+        background-image: url(./Binary\ code\ gif.gif);
+        background-size: cover; /* Ensures the image covers the entire viewport */
+        background-position: center; /* Centers the image */
+        background-repeat: no-repeat; /* Prevents tiling */
+        background-attachment: fixed; /* Keeps the background fixed while scrolling */
+}
+div {
+    margin: 25%;
+    padding-bottom: 50px; /* Adds extra space below */
+}
+
+body {
+    min-height: 100vh; /* Ensures the page takes up full viewport height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
