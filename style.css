@@ -11,24 +11,27 @@ h2{
 
 p{
     text-align: center; 
-    color: #EBF4F6;
+    color: #0B666A;
 }
 
 .header {
-    display: flex;
-    align-items: center; /* Align items vertically */
-    justify-content: center; /* Adjust as needed */
+    display: flex; /* Ensures alignment */
+    align-items: center;
+    justify-content: center;
+    margin-top: 0;
+    margin-bottom: 0; /* Removes any extra space */
+    padding-bottom: 0; /* Removes extra padding */
 }
 
 .header img {
-    max-width: 200%; /* Adjust size as needed */
-   
+    max-width: 200%; /* Prevents it from being too large */
+    height: auto;
+    display: block; /* Prevents unwanted whitespace */
+    margin-bottom: 0; /* Ensures no extra space */
 }
 
-
-
 *{
-    background-color: #088395; 
+    background-color: white; 
     padding-left: 10%; 
     padding-right: 10%;
    
@@ -45,28 +48,38 @@ ul{
 }
 
 nav {
-    display: flex; /* Aligns menu items in a row */
-    justify-content: center; /* Centers the items */
-    gap: 20px; /* Adds space between menu items */
-    background-color: grey; /* Ensures background covers full width */
-    padding: 10px; /* Adds padding for better spacing */
+    background-color: #1A1A2E; /* Dark navy blue */
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    border-bottom: 3px solid #16213E;
 }
 
 nav a {
-    color: #EBF4F6;
+    color: #1A1A2E; /* Soft red for contrast */
     text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
-    border: 1px solid white;
-    padding: 10px 15px; /* Adds padding inside each button */
-    background-color: grey;
-    transition: background-color 0.3s ease; /* Smooth hover effect */
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 15px;
+    transition: all 0.3s ease-in-out;
+    border-radius: 5px;
 }
 
 nav a:hover {
-    background-color: white;
-    color: grey;
+    background-color: grey; /* Deep blue hover effect */
+    color: #EBF4F6; /* Gold text on hover */
 }
 
+nav a.active {
+    background-color: #1A1A2E; /* Gold for active link */
+    color: #1A1A2E; /* Dark background for contrast */
+}
+
+li{
+    text-align: center; 
+    color: #0B666A;
+}
 
 html{
   
