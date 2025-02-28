@@ -1,0 +1,124 @@
+.Home{
+    text-align: right; 
+    color: white; 
+    width: 200;
+}
+
+h2{
+    text-align: center; 
+    color: #071952;
+}
+
+p{
+    text-align: center; 
+    color: #0B666A;
+}
+
+.header {
+    display: flex; /* Ensures alignment */
+    align-items: center;
+    justify-content: center;
+    margin-top: 0;
+    margin-bottom: 0; /* Removes any extra space */
+    padding-bottom: 0; /* Removes extra padding */
+}
+
+.header img {
+    max-width: 200%; /* Prevents it from being too large */
+    height: auto;
+    display: block; /* Prevents unwanted whitespace */
+    margin-bottom: 0; /* Ensures no extra space */
+}
+
+*{
+    background-color: white; 
+    padding-left: 10%; 
+    padding-right: 10%;
+   
+   
+}
+h1{
+    color: #071952; 
+    text-align: center;
+}
+
+ul{
+    color: #EBF4F6; 
+    font-style: italic;
+}
+
+nav {
+    background-color: #1A1A2E; /* Dark navy blue */
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    border-bottom: 3px solid #16213E;
+}
+
+nav a {
+    color: #1A1A2E; /* Soft red for contrast */
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 15px;
+    transition: all 0.3s ease-in-out;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background-color: grey; /* Deep blue hover effect */
+    color: #EBF4F6; /* Gold text on hover */
+}
+
+nav a.active {
+    background-color: #1A1A2E; /* Gold for active link */
+    color: #1A1A2E; /* Dark background for contrast */
+}
+
+li{
+    text-align: center; 
+    color: #0B666A;
+}
+
+html{
+  
+        background-image: url(./Binary\ code\ gif.gif);
+        background-size: cover; /* Ensures the image covers the entire viewport */
+        background-position: center; /* Centers the image */
+        background-repeat: no-repeat; /* Prevents tiling */
+        background-attachment: fixed; /* Keeps the background fixed while scrolling */
+}
+div {
+    margin: 25%;
+    padding-bottom: 50px; /* Adds extra space below */
+}
+
+body {
+    min-height: 100vh; /* Ensures the page takes up full viewport height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
