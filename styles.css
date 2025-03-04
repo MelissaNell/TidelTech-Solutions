@@ -1,0 +1,334 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1A1A2E;
+    color: white;
+}
+
+/* Header & Navigation */
+header {
+    background-color: white;
+    padding: 10px 0;
+    text-align: center;
+    background: linear-gradient(to right,white, #071952, #35A29F);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+    position: relative;
+}
+
+.logo img {
+    height: 120px;
+}
+
+/* Navigation Menu */
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: center;
+}
+
+.nav-links li {
+    display: inline;
+}
+
+.nav-links li a {
+    color: #1A1A2E;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Mobile Navigation */
+.menu-toggle {
+    display: none;
+    font-size: 24px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #1A1A2E;
+}
+
+/* Hero Section */
+.hero {
+    text-align: left;
+    background-color: #0B666A;
+    padding-top: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+}
+
+.hero h1 {
+    color: #1A1A2E;
+    text-align: center;
+    
+}
+
+.hero img {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    ;
+}
+
+/* Sections */
+section {
+    padding: 20px 10%;
+    text-align: center;
+}
+
+h2 {
+    color: #35A29F;
+}
+
+
+p {
+    text-align: left;
+}
+
+li{
+    text-align: left;
+}
+
+/* Buttons */
+button {
+    background-color: #35A29F;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-left: 25%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 100%;
+    max-width: 50%;
+
+}
+
+.button-container {
+    display: flex;
+    justify-content: center; /* Centers the button */
+    align-items: center;
+}
+
+
+button:hover {
+    background-color: #0B666A;
+}
+
+/* Forms */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Footer */
+footer {
+    text-align:center;
+    padding: 20px;
+    background-color: white;
+    width: 100%;
+}
+
+.rights-reserved {
+    color: #1A1A2E;
+    text-align: center;
+}
+
+.number{
+    text-align: center;
+}
+.email{
+    text-align: center;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        padding: 10px 0;
+        background-color: white;
+        text-align: center;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+
+    .nav-links li {
+        padding: 10px;
+    }
+}
+
+.bottom-links {
+    color: white; /* Makes the text white */
+    text-decoration: none; /* Removes the underline */
+    font-weight: bold;
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center; /* Centers the links horizontally */
+}
+
+/* Ensure the parent `.bottom` container is centered */
+.bottom {
+    display: flex;
+    justify-content: center; /* Centers content horizontally */
+    align-items: center;
+    flex-direction: column; /* Stacks items vertically */
+    
+   
+}
+
+.bottom-links a {
+    color: white; /* Ensures all links inside are white */
+    text-decoration: none; /* Removes underline */
+}
+
+.bottom-links a:hover {
+    color: #0B666A; /* Changes color on hover (adjust as needed) */
+}
+
+.footer {
+    background: linear-gradient(to right, #071952, #0B666A);
+    padding: 30px 0;
+    color: white;
+    font-size: 14px;
+    text-align: center; /* Centers all text */
+}
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    text-align: center; /* Ensures text inside sections is centered */
+}
+
+.footer-section {
+    flex: 1;
+    padding: 0 20px;
+    text-align: center; /* Centers text inside sections */
+}
+
+.footer-divider {
+    width: 2px;
+    height: auto;
+    background-color: #35A29F;
+    align-self: stretch;
+}
+
+/* Make links white */
+.footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+/* Center the copyright text */
+.footer-bottom {
+    margin-top: 20px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px; /* Space between sections */
+    text-align: center;
+}
+
+.footer-section {
+    flex: 1;
+    padding: 0 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Ensures content is centered */
+}
+
+/* Center divider */
+.footer-divider {
+    width: 2px;
+    height: auto;
+    background-color: #35A29F;
+    align-self: stretch;
+}
+
+/* Ensure links are white */
+.footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+/* Center copyright text */
+.footer-bottom {
+    margin-top: 20px;
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    .footer-container {
+        flex-direction: column; /* Stack sections vertically */
+        align-items: center;
+        text-align: center;
+        gap: 20px;
+    }
+
+    .footer-section {
+        width: 100%; /* Make sections take full width */
+    }
+
+    .footer-divider {
+        display: none; /* Hide the divider on small screens */
+    }
+}
+
+
